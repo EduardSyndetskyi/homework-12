@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html { 
+    font-size: 10px;
+}
+
+body {  
+     margin: 0px;
+     padding: 0px;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1500px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+.footer-up {
+    background-image: url(../img/background.jpg);
+    padding: 0 0 99px 0;
+}
+
+.footer-up__heading {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 4.5em;
+    padding-top: 8.1em;
+}
+
+.footer-up__heading__title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 9rem;
+    margin-bottom: .25em;
+    margin-top: 0;
+}
+
+.footer-up__heading__text { 
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.5;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    width: 100%;
+}
+
+.col--1-25 {
+    max-width: 500px;
+    margin-right: 170px;
+}
+
+.col--1-4 {
+    max-width: 320px;
+}
+
+.form__field {
+    width: 100%;
+    height: 50px;
+
+    padding: 0 0  .15em 1.35em;
+    margin-bottom: 1em;
+
+    background-color: #75d9da;
+    border: none;
+     
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #aee7e7;
+
+    resize: none;
+    overflow:  hidden;
+}
+
+.form__field--padding {
+    padding: 20px 0 0 20px;
+}
+
+.form__field--hight {
+    height: 250px;
+}
+
+::placeholder {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #aee7e7;
+    color: #fff;
+    vertical-align: text-top;
+}
+
+.form__field--active {
+    color: #fff;
+    font-weight: 700;
+    background-color: #00c4c4;
+    border-left: 5px solid #355b82; 
+}
+
+.form__field:focus {
+    color: #fff;
+    font-weight: 700;
+    background-color: #00c4c4;
+    border-left: 5px solid #355b82;    
+}
+
+.form__field:not(:focus):invalid {
+    border-color: none;
+}
+.form__field:focus:invalid {
+    color: #fff;
+    font-weight: 700;
+    background-color: #00c4c4;  
+    border-color:#ff2b58;
+}
+button {
+    display: none;
+}
+
+.contact {
+    list-style: none;
+    padding: 0;
+}
+
+.contact__title {
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 0.68;
+    margin: 0;
+}
+.contact__text {
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 0.8;
+    margin-bottom: 23px;
+    margin-top: 10px;
+}
+
+.footer-down {
+    background-color: #000000;
+    padding: 34px 15px 37px 15px;
+}
+
+.footer-down__info {
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #b9b9b9;
+    
+}
+
+.footer-down__info-company {
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.footer-down__info-name {
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.footer-down__info-made {
+    font-size: 1.5rem;
+    line-height: 1.7;
+}
+
+.footer-down__info-made--marked {
+    color: #ff2b58;
+
+}

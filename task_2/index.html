@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Homework-12_task-2</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="https://kit.fontawesome.com/7f6c4eaccf.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <main>
+      
+      <div class="wrap">
+
+        <div class="tabs">
+
+        <div class="tab">
+
+         <input type="radio" id="tab1" class="tab__radio" name="tab-group" checked>
+         <label for="tab1" class="tab__title">Sign in</label> 
+         
+            <div class="tab__content">
+
+              <form action="#" autocomplete="on" method="POST" class="form">
+
+                <label class="form__label">Username
+                <input type="text" class="form__field" name="username" required minlength="5" maxlength="15">
+                </label>
+                <label class="form__label">Password
+                <input type="password" class="form__field" name="password" minlength="5" maxlength="15" required>
+                </label>
+
+                <div class="form__checkbox">
+                  <input type="checkbox" id="checkbox-id" class="form__checkbox-field" />
+                  <label for="checkbox-id" class="form__checkbox-label">Keep in signed in</label>
+                </div>
+
+                <div class="btn">
+                  <button class="btn__bn" href="#">Sign in</button>
+                </div>
+
+              </form>
+
+              <div class="links">
+                <a class="links__link" href="#"> Forgot password</a>
+                <a class="links__link" href="#"> Create an accuant</a>
+              </div>
+
+         </div>
+        </div>
+        
+        <div class="tab">
+         <input type="radio" id="tab2" class="tab__radio" name="tab-group">
+         <label for="tab2" class="tab__title">Join up</label> 
+         <div class="tab__content"></div>
+        </div>
+
+        </div>
+
+      </div>
+
+</main>
+
+  </body>
+  </html>

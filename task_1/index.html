@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>homework_12_task_1</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css"/>
+
+  </head>
+  <body>
+
+    <footer id="footer" class="footer">
+      
+      <div class="footer-up">
+
+        <div class="container"> 
+  
+            <div class="footer-up__heading ">
+              <h2 class="footer-up__heading__title">Contact</h2>
+              <p class="footer-up__heading__text">For new projects, ideas, business or anything
+              you'd like to discuss, contact with me!</p>
+            </div>
+  
+            <div class="row">
+  
+              <div class="col col--1-25">
+                
+                <form action="#" autocomplete="on" method="POST" class="form">
+                  
+                  <input type="text" id="address" name="address" class="form__field form__field--active" placeholder="Your address..."  minlength="4"  autofocus required>
+                  <input type="email" id="email" name="email" class="form__field"  placeholder="Your email..."  minlength="4" autofocus required>
+                  <input type="tel" id="tel" name="tel" class="form__field"  placeholder="Your phone number..." data-mask="+38(000) 000 00 00" minlength="4" autofocus required/>
+                  <textarea id="message" name="message" class="form__field form__field--padding form__field--hight"  placeholder="Your messge..." rows="5"></textarea>
+                  <button type="submit" id="form__btn"></button> 
+                </form>
+              </div>
+  
+              <div class="col col--1-4 ">
+  
+                <ul class="contact">
+  
+                  <li class="contact__list">
+                  <h3 class="contact__title">address</h3>
+                  <p id="ter" class="contact__text">123 City name, Street, City, Country</p>
+                  </li>
+                  <li class="contact__list">
+                  <h3 class="contact__title">email</h3>
+                  <p class="contact__text">cahee@domain.com</p>
+                  </li>
+                  <li class="contact__list">
+                  <h3 class="contact__title">phone</h3>
+                  <p class="contact__text">+012 345 6789</p>
+                  </li>
+  
+                </ul>
+                
+              </div>
+
+            </div>
+
+        </div>
+
+      </div>
+
+      <div class="footer-down">
+
+        <div class="container">
+
+          <div class="footer-down__info">
+
+            <div class="footer-down__info-company">© 2015 Company. All right reserved.</div>
+            <div class="footer-down__info-name">Cahee</div>
+            <div class="footer-down__info-made">Made with <span class="footer-down__info-made--marked">love</span> by Auskteez</div>
+
+          </div>
+        
+        </div>
+      </div>
+
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/input.js"></script>
+
+
+</body>
+</html>
