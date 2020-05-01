@@ -28,14 +28,14 @@ body {
 
 .footer-up {
     background-image: url(../img/background.jpg);
-    padding: 0 0 99px 0;
+    padding: 0 0 99x 0;
 }
 
 .footer-up__heading {
     margin: auto;
     text-align: center;
     width: 100%;
-    max-width: 350px;
+    max-width: 351px;
     margin-bottom: 4.5em;
     padding-top: 8.1em;
 }
